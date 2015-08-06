@@ -61,7 +61,7 @@ $(document).ready(function() {
 
 // });
 
-  $(this).keydown(function(event){
+  $('.ryu').keydown(function(event){
    if (event.keyCode===88) {
 
       $('ryu-ready').hide();
