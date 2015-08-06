@@ -63,9 +63,15 @@ $(document).ready(function() {
 
   $(this).keydown(function(event){
    if (event.keyCode===88) {
-
+      // alert('hello')
+        
       $('.ryu-ready').hide();
-      $('.ryu-cool').show();
+      $('.ryu-cool').show(); 
+     
+       // $('.ryu-still').show();
+       // $('.ryu-throwing').show();
+
+       alert('hello')
       
      }
 
