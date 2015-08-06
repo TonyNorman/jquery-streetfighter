@@ -43,6 +43,9 @@ body{
   background-repeat: no-repeat;
 }
 
+.ryu-cool{
+background-image: ('../images/ryu-cool.gif');
+}
 
 
 .hadouken {
