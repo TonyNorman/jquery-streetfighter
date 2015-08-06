@@ -61,11 +61,12 @@ $(document).ready(function() {
 
 // });
 
-  $('.ryu').keydown(function(event){
+  $(this).keydown(function(event){
    if (event.keyCode===88) {
 
-      $('ryu-ready').hide();
-      $('ryu-cool').show();
+      $('.ryu-ready').hide();
+      $('.ryu-cool').show();
+      
      }
 
 

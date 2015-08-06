@@ -44,7 +44,7 @@ body{
 }
 
 .ryu-cool{
-background-image: ('../images/ryu-cool.gif');
+background-image: url('../images/ryu-cool.gif');
 }
 
 
