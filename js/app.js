@@ -71,7 +71,7 @@ $(document).ready(function() {
        // $('.ryu-still').show();
        // $('.ryu-throwing').show();
 
-       alert('hello')
+       // alert('hello')
       
      }
 
