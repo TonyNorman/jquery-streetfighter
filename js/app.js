@@ -64,11 +64,12 @@ $(document).ready(function() {
   $(this).keydown(function(event){
    if (event.keyCode===88) {
       // alert('hello')
-        
+         
          $('.ryu-ready').hide();
          $('.ryu-cool').show(); 
          // $('.ryu-still').show();
-              
+          playcool(); 
+             
       
       
 
@@ -105,3 +106,10 @@ $(document).ready(function() {
   $('#hadouken-sound')[0].load();
   $('#hadouken-sound')[0].play();
 }
+
+  function playcool () {
+  $('#cool')[0].volume = 0.5;
+  $('#cool')[0].load();
+  $('#cool')[0].play();
+
+  }
