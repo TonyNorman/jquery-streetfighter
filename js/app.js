@@ -65,18 +65,24 @@ $(document).ready(function() {
    if (event.keyCode===88) {
       // alert('hello')
         
-      $('.ryu-ready').hide();
-      $('.ryu-cool').show(); 
-     
-       // $('.ryu-still').show();
-       // $('.ryu-throwing').show();
+         $('.ryu-ready').hide();
+         $('.ryu-cool').show(); 
+         // $('.ryu-still').show();
+              
+      
+      
 
        // alert('hello')
       
      }
 
 
+     }).keyup(function(event){
+      if(event.keyCode===88)
+        $('.ryu-cool').hide();
+        $('.ryu-ready').show();
      });
+
 
 
 
