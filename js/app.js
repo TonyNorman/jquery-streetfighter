@@ -64,11 +64,11 @@ $(document).ready(function() {
   $(this).keydown(function(event){
    if (event.keyCode===88) {
       // alert('hello')
-         
+          playcool(); 
          $('.ryu-ready').hide();
          $('.ryu-cool').show(); 
          // $('.ryu-still').show();
-          playcool(); 
+
              
       
       
@@ -83,21 +83,6 @@ $(document).ready(function() {
         $('.ryu-cool').hide();
         $('.ryu-ready').show();
      });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 });
 
