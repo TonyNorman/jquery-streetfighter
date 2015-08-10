@@ -1,9 +1,9 @@
 body{
 	background-color:black;
 }
-div {
+/*div {
   border: 1px solid Chocolate;
-}
+}*/
 
 
 
@@ -73,10 +73,12 @@ background-image: url('../images/ryu-cool.gif');
 
 .instructions {
   float: right;
-  background-color: yellow;
+  /*background-color: yellow;*/
   height: 500px;
   width: 582px;
   margin-left: 30em;
+  margin-top: 5em;
+    margin-right: 11em;
 }
 .instructions .throw1 h1{
       margin-left: 3em;
@@ -94,6 +96,23 @@ background-image: url('../images/ryu-cool.gif');
     margin-left: 96px;
     margin-top: 3px;
     font-family: rock salt;
+}
+
+.instructions .keyx h3{
+  font-family: rock salt;
+  font-size: 24px;
+    height: 76px;
+    /*margin-left: 3em;*/
+    margin-bottom: -3em;
+    margin-left: 3em;
+}
+.instructions .keyx2 h4{
+  font-family: rock salt;
+  font-size: 24px;
+    height: 76px;
+    margin-left: 5em;
+    /*margin-left: 5em;*/
+
 }
 /*p{
   float: right;
